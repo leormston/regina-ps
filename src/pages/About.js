@@ -77,7 +77,7 @@ const About = (props) => {
         
 
                 <div className="col-span-1  bg-fuchsia-50 rounded-3xl p-10 md:h-96 sm:h-auto xs:h-auto">
-                    <p className="btn btn-primary rounded-full text-center text-gray-100">Interesting Links</p>
+                    <p className="btn btn-primary rounded-full text-center text-gray-100">Interesting Links:</p>
                     <br/>
                     <br/>
                     <a className="btn btn-primary rounded-full text-left text-gray-100" onClick={() => navigate("/credits")}>Credits</a>

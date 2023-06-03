@@ -9,7 +9,7 @@ const Footer = () => {
     <p className="font-bold">
       Regina Agard Brathwaite <br/> Professional in the Arts and Theatre Industry
     </p> 
-    <p>Website Developed by L.O</p>
+    <p>Website Developed by L.O [v0.0.1]</p>
   </div> 
   <div>
     <div className="grid grid-flow-col gap-4">

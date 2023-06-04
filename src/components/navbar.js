@@ -27,6 +27,7 @@ const Navbar = (props) => {
             <a className="btn btn-primary rounded-full" onClick={() => navigate("/articles")} >Blog</a>
             <a className="btn btn-primary rounded-full" onClick={() => navigate("/gallery")}>Gallery</a>
             <a className="btn btn-primary rounded-full" onClick={() => navigate("/events")} >Upcoming Events</a>
+            {props.auth != true ?  null: <a className="btn btn-primary rounded-full" onClick={() => navigate("/admin")} >Admin</a>}
         </div>
         <div className="navbar-end">
             <a className="btn btn-primary rounded-full" onClick={() => navigate("/contact")}>Contact</a>

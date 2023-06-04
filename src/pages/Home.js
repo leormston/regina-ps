@@ -36,7 +36,7 @@ const Home = (props) => {
             <br/>
             <br/>
 
-            <Blogs location="articles/" />
+            <Blogs location={"articles/"} />
             <br/>
             <br/>
             <div className="text-center">
